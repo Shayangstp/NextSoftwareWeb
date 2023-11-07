@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+hi this is my sass project that i made with NextJS , MongoDb and tailwind css
 
-## Getting Started
+the authenticator of this project made by me and doesn't used third party in it
 
-First, run the development server:
+also have ticket managment client can submit ticket init (you have to signup or use test account i put for you in login pannel) , sso from google used in this project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+this project included email verification and reset password
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+the admin pannel is on toDo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+api route used and backend of this project from NextJs
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+you can downlaod or clone the project from github
+then open it in vsCode
+after that in terminal write --> npm i  
+#(if you getting trouble use this : npm i --force)
 
-## Learn More
+after the installation
 
-To learn more about Next.js, take a look at the following resources:
+use this ---> npm run dev
+url ---> localhost:1373
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+for database reached dm me to give you my mongodb atlas url for connection --->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+@shayan5529 --> telegram
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+g.shayan5529@gmail.com ---> email
