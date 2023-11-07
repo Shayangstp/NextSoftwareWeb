@@ -9,10 +9,15 @@ import {
   faX,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faInstagram,
+  faLinkedinIn,
+  faWhatsapp,
+  faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
-import SocialMedia from "./socialMedia";
-import { StateContext } from "@/store/contextProvider";
+// import SocialMedia from "./SocialMedia";
 import axios from "axios";
 import jwt from "jsonwebtoken";
 import { useCookies } from "react-cookie";
@@ -267,7 +272,21 @@ const Navbar = () => {
             </ul>
             <hr className="mt-6" />
             <div className="flex flex-row text-white justify-center text-2xl mt-3">
-              <SocialMedia />
+              {/* <SocialMedia /> */}
+              <div>
+                <button className="mr-2 hover:text-secondary">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </button>
+                <button className="mr-2 hover:text-secondary">
+                  <FontAwesomeIcon icon={faWhatsapp} />
+                </button>
+                <button className="mr-2 hover:text-secondary">
+                  <FontAwesomeIcon icon={faTelegram} />
+                </button>
+                <button className="mr-2 hover:text-secondary">
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </button>
+              </div>
             </div>
           </div>
         </div>
