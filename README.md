@@ -8,7 +8,7 @@ this project included email verification and reset password
 
 the admin pannel is on toDo
 
-api route used and backend of this project from NextJs
+api route used as backend of this project from NextJs
 
 you can downlaod or clone the project from github
 then open it in vsCode
@@ -20,7 +20,6 @@ after the installation
 use this ---> npm run dev
 url ---> localhost:1373
 
-for database reached dm me to give you my mongodb atlas url for connection --->
 
 @shayan5529 --> telegram
 
