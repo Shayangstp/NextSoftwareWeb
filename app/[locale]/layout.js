@@ -16,10 +16,10 @@ export function generateStaticParams() {
   return [{ locale: "fa" }, { locale: "en" }];
 }
 
-export const metadata = {
-  title: "KavehGlass",
-  description: "kaveh glass Co",
-};
+// export const metadata = {
+//   title: "KavehGlass",
+//   description: "kaveh glass Co",
+// };
 
 export default function RootLayout({ children, params: { locale } }) {
   //make the async func for make it server component
