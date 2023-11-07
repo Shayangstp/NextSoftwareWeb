@@ -25,7 +25,7 @@ import {
 } from "@/Slices/mainSlices";
 import { selectSignupGoogleToken } from "@/Slices/signupSlices";
 import { useEffect } from "react";
-import { GoogleLogin } from "react-google-login";
+import { GoogleLogin } from "@leecheuk/react-google-login";
 import { errorMassage, successMassage } from "@/utils/msg";
 
 const Login = () => {
