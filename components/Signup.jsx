@@ -11,7 +11,7 @@ import { useRouter } from "next/navigation";
 // import toast, { Toaster } from "react-hot-toast";
 import { errorMassage } from "@/utils/msg";
 import { NumericFormat } from "react-number-format";
-import { GoogleLogin } from "react-google-login";
+import { GoogleLogin } from "@leecheuk/react-google-login";
 import { gapi } from "gapi-script";
 import axios from "axios";
 import {

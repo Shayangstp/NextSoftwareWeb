@@ -329,7 +329,7 @@ const Login = () => {
                 </Link>
               </p>
               <div id="test-Account">
-                <ul className="text-[12px] text-center text-gray-400">
+                <ul className="text-[12px] text-center text-gray-500">
                   <li>username : shayan.testing1373@gmail.com</li>
                   <li>password : Testing.1373</li>
                 </ul>
